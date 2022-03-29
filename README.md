@@ -4,11 +4,13 @@ This project is aimed at developing a Machine Vision system for obstacles detect
 
 About the Dataset:
 This dataset contains 9766 realistic renders of lunar landscapes and their masks (segmented into three classes: sky, small rocks, bigger rocks).
-->Additionally, a csv file of bounding boxes and cleaned masks of ground truths are provided.
+Additionally, a csv file of bounding boxes and cleaned masks of ground truths are provided.
 An interesting feature of this dataset is that the images are synthetic; they were created using PlanetsideSoftware's Terragen.
+
 Dataset: https://www.kaggle.com/datasets/romainpessia/artificial-lunar-rocky-landscape-dataset
 
-Libraries Used:
+**Libraries Used:
+
 Os:The OS module in Python provides functions forinteracting with the operating system.
 
 OpenCV:OpenCV-Python is a library of Python bindingsdesigned to solve computer vision problems.
@@ -30,6 +32,7 @@ Segmentation_models: Python library with Neural Networks for Image Segmentation 
 Sklearn: Scikit-learn (Sklearn) is the most useful and robust library for machinelearning in Python. It provides a selection of efficient tools for machine learning 
 and statistical modeling including classification, regression, clustering and dimensionality reduction via a consistent interface in Python.
 
-Overview:
+**Overview:
+
 The project gives a val_iou score of 0.24. The model is trained with the U-Net Architecture as the backbone using convolutional neural network concept. 
 https://blog.paperspace.com/unet-architecture-image-segmentation/
